@@ -1,17 +1,13 @@
 package: .
 import:
 - package: github.com/google/uuid
-  version: v1.1.1
 - package: github.com/gorilla/mux
-  version: v1.7.4
 - package: go.mongodb.org/mongo-driver
-  version: v1.4.0-beta1
   subpackages:
   - bson
   - mongo
   - mongo/options
 testImport:
 - package: github.com/stretchr/testify
-  version: v1.5.1
   subpackages:
   - assert
