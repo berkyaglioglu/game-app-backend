@@ -1,0 +1,13 @@
+package: .
+import:
+- package: github.com/google/uuid
+- package: github.com/gorilla/mux
+- package: go.mongodb.org/mongo-driver
+  subpackages:
+  - bson
+  - mongo
+  - mongo/options
+testImport:
+- package: github.com/stretchr/testify
+  subpackages:
+  - assert
