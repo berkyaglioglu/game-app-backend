@@ -1,4 +1,0 @@
-github.com/gorilla/mux
-go.mongodb.org/mongo-driver/mongo
-github.com/stretchr/testify/assert
-github.com/google/uuid
